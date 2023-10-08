@@ -31,18 +31,18 @@ https://www.python.org/downloads/ よりインストーラーをダウンロー�
 2. ファイルの設定
 テキストエディタにてmonitor_ecg12.py の最初を編集します。
 
->IP="127.0.0.1"
->PORT=1883
->TOPIC="Undefined"
->ID="YourID"
->PW="PassWord"
->SEC=10
+ >IP="127.0.0.1"
+ >PORT=1883
+ >TOPIC="Undefined"
+ >ID="YourID"
+ >PW="PassWord"
+ >SEC=10
 
 の部分をpublisherなどから情報を得て適切に変更します。
 
 3. 実行
 コマンドラインから
-python monitor_ecg12.py
+`python monitor_ecg12.py`
 と入力してenter を押下。すると画面が開いてデータを受信し、表示を始めます。
 
 
